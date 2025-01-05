@@ -112,6 +112,12 @@ if __name__ == "__main__":
     queries = [
         {"query": "BTS Park Jimin official", "folder": "images_jimin"},
         {"query": "BTS Kim Taehyung official", "folder": "images_taehyung"},
+        {"query": "BTS Park Jimin site:instagram.com", "folder": "images_jimin_instagram"},
+        {"query": "BTS Kim Taehyung site:instagram.com", "folder": "images_taehyung_instagram"},
+        {"query": "BTS Park Jimin site:twitter.com", "folder": "images_jimin_twitter"},
+        {"query": "BTS Kim Taehyung site:twitter.com", "folder": "images_taehyung_twitter"},
+        {"query": "BTS Park Jimin site:gettyimages.com", "folder": "images_jimin_getty"},
+        {"query": "BTS Kim Taehyung site:gettyimages.com", "folder": "images_taehyung_getty"},
     ]
     num_images = 100  # 各キーワードごとの目標枚数
     clear_existing_folders = False  # 既存フォルダを削除する場合はTrue
